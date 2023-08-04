@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <style>
+    html {
+  scroll-behavior: smooth;
+    }
+
+    *{
+    margin:0;
+    padding:0;
+    }
+    header{
+        margin-top: 10px;
+        height:350px;
+        background-color:#69d1ae;
+        border-radius: 50px;
+    }
+
+    h3{
+        margin-left: 500px;
+        font-family: 'Klee One';
+        color: white;
+    }
+    #th,.td{
+        padding-top:10px;
+        padding-left:30px;
+        padding-right: 30px;
+        font-family: 'Klee One';
+        color: white;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    hr{
+    border-style: dotted none none none;
+    height:0;
+    border-width: thick;
+    border-color:black;
+    margin:0 auto 0 auto;
+    }
+    #h2{
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Klee One';
+    }
+    #aboutme{
+        background-image: url("main.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;   
+        border-radius: 50px;
+        height:300px;
+    }
+    .table{
+        border:3px solid black;
+        font-family: 'Klee One';
+        padding:10px;
+        border-collapse: collapse;
+        font-weight: bold;
+    }
+    #skills{
+        background-image: url("skills1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;   
+        border-radius: 50px;
+        height: 350px;
+    }
+    #contactme{
+        background-image: url("contact.webp");
+        background-size: cover;
+        background-repeat: no-repeat;   
+        border-radius: 50px;
+        height: 400px;
+    }
+    td{
+        padding:10px;
+    }
+    p{
+        font-family: 'Klee One';
+        font-weight: bold;
+    }
+    </style>
+    <script>
+        function dialog()
+        {
+            var name=form.T1.value;
+            alert("Hello "+name+" Thank You for Contacting Me, I will get in touch with you soon!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <table>
+            <tr id="tr">
+                <td class="td"><a href="#aboutme">About Me</a></td>
+                <td class="td"><a href="#education">Education</a></td>
+                <td class="td"><a href="#skills">Skills</a></td>
+                <td class="td"><a href="#project">Project</a></td>
+                <td class="td"><a href="#contactme">Contact Me</a></td>
+            </tr>
+        </table>
+        <img src="pic.jpg" alt="error" style="width:200 px;height:200px;border-radius: 150px;margin-left: 575px;margin-top: 30px;" >
+        <h3 style="margin-left: 600px;">Hi, I'm Oishi Halder</h3>
+        <h3 style="margin-left: 530px;">A Full Stack Developer and programmer</h3>
+        <br><hr style="width:60%">
+    </header><br><br>
+    <main id="aboutme">
+        <br><h2 id="h2">ABOUT ME</h2><br><br><br>
+        <p style="width:500px; margin-left: 450px;margin-top: 50px;text-align: center;font-family: 'Klee One';font-weight: bold;">I am strongly interested in Data Structures and am passionate about coding. I enjoy learning new things and love solving problems. I am a motivated, hardworking, reliable and determined team player.</p>
+        <br><hr style="width:60%">
+    </main><br><br><br>
+    <main id="education">
+        <center>
+        <table>
+        <tr>
+        <td style="padding-right:350px"><br><h2 style="font-family: 'Klee One'; font-weight: bold;">EDUCATION</h2><br><img src="arrow.png" alt="error" width="100px" height="100px"><br><br><br></td>
+        
+        <td>
+            <table class="table">
+                <tr>
+                    <td class="table">MCA </td>
+                    <td class="table">Christ (Deemed to be University), Bengaluru</td>
+                    <td class="table">2025</td>
+                    <td class="table"></td>
+                </tr>
+                <tr>
+                    <td class="table">B. Sc (Hons) 
+                        Computer Science
+                        </td>
+                        <td class="table">
+                            St. Xaviers College (Autonomous), Kolkata
+                        </td>
+                        <td class="table">2023</td>
+                        <td class="table">8.77</td>
+                </tr>
+                <tr>
+                    <td class="table">Class 12 (ISC)  </td>
+                    <td class="table">St. Stephens School</td>
+                    <td class="table">2020</td>
+                    <td class="table">98%</td>
+                </tr>
+                <tr>
+                    <td class="table">Class 10 (ICSE)</td>
+                    <td class="table">St. Stephens School</td>
+                    <td class="table">2018</td>
+                    <td class="table">96.2%</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+        </table>
+        </center>>
+        <br><hr style="width:60%">
+    </main><br>
+    <main id="skills">
+        <h2 style="font-family: 'Klee One';font-weight: bold;"><center>SKILLS</center></h2>
+        <center>
+            <table style="font-family: 'Klee One';font-weight: bold;padding-left: 200px;">
+                <ul>
+                <tr>
+                    
+                    <td><li>Adept at backend programming languages such as C, Java, Python, PHP, JavaScript, JSP</li></td>
+                    <td><li>Experienced in frontend languages such as HTML and CSS.</li></td>
+                </tr>
+                <tr>
+                    <td><li>Proficient in database language namely SQL.</li></td>
+                    <td><li>Skilled in Data Structures like stack, queue, linked lists, graphs and trees</li></td>
+                </tr>
+                <tr>
+                    <td><li>I have completed almost over 120 programs in HackerRank (Profile ID: - @hoishi29) and I have collected 5 stars in Java and 4 stars in C.</li></td>
+                    <td><li>I participated in the Neurodiversity Coding Contest 2021 of HackerRank, Code Chaos Analytica, 2021 organised by the Mathematics department of the St. Xaviers College and in the Codeplay, exabyte 2022 organised by the Computer Science department.</li></td>
+                </tr>
+                <tr>
+                    <td><li>Problem Solving Skills and strong analytical thinking.</li></td>
+                    <td><li>Competent in Task and Time Management and excellent communication skills</li></td>
+                </tr>
+            </ul>
+            </table>
+        </center>
+        <br><hr style="width:60%">
+    </main>
+    <main id="project">
+        <center>
+            <table style="font-family: 'Klee One';font-weight: bold;padding-left: 50px;padding:30px;">
+            <tr>
+            <td rowspan="3" style="padding-right:350px"><br><h2 style="font-family: 'Klee One'; font-weight: bold;">PROJECT</h2><br><img src="arrow.png" alt="error" width="100px" height="100px"><br><br><br></td>
+            <td>
+            <ul>
+                <li> <u>Front end website</u>: I have designed the front end of a college website using HTML and CSS. The website consisted of a navigation menu, iFrames for notices and announcements and a carousel image. It was a responsive website. There were a number of hyperlinks that connected the home page with the other relevant pages. </li></ul>
+            </td></tr>
+            <tr>
+                <ul>
+               <td> <li><u> Basic Banking System</u>: I have designed a basic banking system where one can transfer money between the customers of the bank. I have used HTML and CSS for the frontend of the project and I used PHP for the backend. The database that I used is MySQL. </li></td> 
+            </tr></ul>
+            <tr>
+                <ul>
+               <td><li> <u> Final year B.Sc Project</u>: Voice Recognition which will attempt to differentiate between the voices of the speakers using the differences noted in the wave envelopes using Python.</li></td></ul>
+            </tr>
+        </ul>
+            </table>
+            </center>
+            <hr style="width:60%">
+    </main><br><br>
+    <main id="contactme">
+        <h2 style="font-family: 'Klee One';font-weight: bold;"><center>CONTACT ME</center></h2> <br><br>
+        <center>
+        <form action="post" name="form">
+                <p> Enter your name </p><br>&nbsp;&nbsp;&nbsp;<input type="text" name="T1"><br><br>
+                <p>Enter your Mail ID </p><br>&nbsp;&nbsp;&nbsp;<input type="email" name="T2"><br><br>
+               <p> Enter your Query </p><br>&nbsp;&nbsp;&nbsp;<input type="text" name="T3"><br><br><br>
+                <input type="button" value="Submit" style="font-family: 'Klee One';font-weight:bold;border:2px dotted black;width:150px;" onclick="dialog()">  <br><br>
+        <input type="reset" style="font-family: 'Klee One';font-weight:bold;border:2px dotted black;width:150px;" value="RESET"><br><br>
+        </form>
+    </center><hr style="width:60%"><br><br>
+    </main>
+</body>
+</html>
